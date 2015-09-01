@@ -14,6 +14,11 @@
     <description>Expanset is a suite for a fast creation of Java applications</description>
     <url>https://expanset.com</url>	
 
+	<organization>
+		<name>expanset</name>
+		<url>https://expanset.com</url>
+	</organization>
+	
 	<licenses>
         <license>
             <name>Apache License 2.0</name>
@@ -21,6 +26,23 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+
+	<scm>
+		<url>https://github.com/expanset/parent-pom</url>
+		<connection>scm:git:https://github.com/expanset/parent-pom</connection>
+		<developerConnection>scm:git:https://github.com/expanset/parent-pom</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+	
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/expanset/parent-pom/issues</url>
+	</issueManagement>
+	
+	<ciManagement>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/expanset/parent-pom</url>
+	</ciManagement>
 	
     <distributionManagement>
         <snapshotRepository>
@@ -461,5 +483,4 @@
 			</dependency>		
 		</dependencies>
 	</dependencyManagement>
-
 </project>
