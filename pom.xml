@@ -310,13 +310,13 @@
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>slf4j-api</artifactId>
-				<version>1.7.12</version>
+				<version>1.7.13</version>
 			</dependency>
 			<!-- Route java.utils logging to SLF4J. -->  
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>jul-to-slf4j</artifactId>
-				<version>1.7.12</version>
+				<version>1.7.13</version>
 			</dependency>
 			<!-- Main logging provider (Logback). -->
 			<dependency>
@@ -350,13 +350,13 @@
 			<dependency>
 				<groupId>org.eclipse.persistence</groupId>
 				<artifactId>eclipselink</artifactId>
-				<version>2.6.0</version>
+				<version>2.6.1</version>
 			</dependency>
 			<!-- DB migration. -->
 			<dependency>
 				<groupId>org.liquibase</groupId>
 				<artifactId>liquibase-core</artifactId>
-				<version>3.4.1</version>
+				<version>3.4.2</version>
 			</dependency>
 			<dependency>
 			    <groupId>com.mattbertolini</groupId>
@@ -367,7 +367,7 @@
 			<dependency>
 				<groupId>com.h2database</groupId>
 				<artifactId>h2</artifactId>
-				<version>1.4.188</version>
+				<version>1.4.190</version>
 			</dependency>		
 			<!-- Web. -->			
 	        <dependency>
@@ -389,23 +389,23 @@
 			<dependency>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-server</artifactId>
-				<version>9.3.3.v20150827</version>
+				<version>9.3.6.v20151106</version>
 			</dependency>
 			<dependency>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-servlet</artifactId>
-				<version>9.3.3.v20150827</version>
+				<version>9.3.6.v20151106</version>
 			</dependency>
 			<dependency>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-xml</artifactId>
-				<version>9.3.3.v20150827</version>
+				<version>9.3.6.v20151106</version>
 			</dependency>
 			<!-- Validation. -->
 			<dependency>
 				<groupId>org.hibernate</groupId>
 				<artifactId>hibernate-validator</artifactId>
-				<version>5.2.1.Final</version>
+				<version>5.2.2.Final</version>
 			</dependency>		
 			<!-- JSON. -->
 	        <dependency>
@@ -445,13 +445,13 @@
 			<dependency>
 				<groupId>org.quartz-scheduler</groupId>
 				<artifactId>quartz</artifactId>
-				<version>2.2.1</version>
+				<version>2.2.2</version>
 			</dependency>			
 			<!-- Code check. -->		
 			<dependency>
 				<groupId>com.google.code.findbugs</groupId>
 				<artifactId>jsr305</artifactId>
-				<version>3.0.0</version>
+				<version>3.0.1</version>
 			</dependency>		
 			<!-- CDI. -->	
 			<dependency>
@@ -469,7 +469,7 @@
 			<dependency>
 				<groupId>org.jboss.arquillian.container</groupId>
 				<artifactId>arquillian-weld-ee-embedded-1.1</artifactId>
-				<version>1.0.0.CR9</version>
+				<version>1.1.2.Final</version>
 			</dependency>
 			<!-- Unit testing. -->		
 	    	<dependency>
